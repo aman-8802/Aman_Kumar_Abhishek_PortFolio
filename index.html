@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aman Kumar Abhishek | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="logo" onclick="window.location.href='index.html'">
+  <img src="assets/images/logo.png" alt="Logo">
+    </div>
+
+
+  <ul class="nav-links">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+
+<header class="hero" id="home">
+  <h1>Aman Kumar Abhishek</h1>
+  <h3><span class="typing"></span></h3>
+
+  <div class="socials">
+    <a href="https://www.linkedin.com/in/aman-kumar-abhishek/" target="_blank">LinkedIn</a>
+    <a href="https://github.com/" target="_blank">GitHub</a>
+    <a href="Aman_Kumar_Abhishek_Resume.pdf"
+   class="project-btn"
+   download>
+  <i class="fas fa-download"></i>
+  Download Resume
+</a>
+<div class="hero-content">
+  <div class="hero-text">
+    <!-- existing text -->
+  </div>
+
+  </div>
+</header>
+
+<section id="about">
+  <h2>About Me</h2>
+
+  <div class="grid">
+    <div class="card about-card">
+      <p>
+        I am an aspiring <strong>AWS Cloud & DevOps Engineer</strong> with hands-on
+        experience in cloud deployments, containerization, and automation.
+      </p>
+
+      <p>
+        I have deployed and managed multiple applications using
+        <strong>Docker on AWS EC2</strong>, configured
+        <strong>ArgoCD</strong> for continuous deployment, and worked with
+        <strong>Amazon EKS clusters and Security Groups</strong> to support scalable
+        and secure environments.
+      </p>
+
+      <p>
+        I enjoy solving real-world problems in cloud-based systems and continuously
+        improving my expertise in
+        <strong>AWS, Docker, Linux, Git, networking fundamentals</strong>, and
+        DevOps best practices.
+      </p>
+    </div>
+  </div>
+</section>
+
+
+<section id="experience">
+  <h2>Experience</h2>
+
+  <div class="grid">
+    <div class="card experience-card">
+      <h3>Junior DevOps Engineer</h3>
+
+      <p class="company">
+        Nubus Techno · Full-time
+      </p>
+
+      <p class="duration">
+        Jul 2025 – Present · Remote (Schaumburg, USA)
+      </p>
+
+      <ul>
+        <li>
+          Assisted in managing AWS cloud infrastructure including EC2, S3, IAM, and Aurora DB, focusing on availability, security, and monitoring.
+        </li>
+
+        <li>
+          Designed and configured <strong>Amazon EKS clusters</strong>,
+          including node groups, IAM roles, and worker nodes to support
+          containerized, scalable applications.
+        </li>
+
+        <li>
+          Deployed and managed applications using <strong>ArgoCD</strong>,
+          integrating multiple clusters and Git repositories to enable
+          continuous deployment workflows.
+        </li>
+
+        <li>
+          Implemented DevOps best practices for
+          <strong>containerization, automation, and cloud operations</strong>,
+          improving deployment efficiency, reliability, and system stability.
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="grid">
+    
+    <!-- Project 1 -->
+    <div class="card project-card">
+      <h3>Dockerized WordPress & MySQL</h3><br>
+      <p>
+        Multi-container WordPress deployment using Docker with MySQL,
+        persistent volumes, and container networking.
+      </p>
+
+      <a href="https://www.linkedin.com/posts/aman-kumar-abhishek_wordpress-mysql-deployment-using-docker-activity-7401634511140397056-2nhO?utm_source=share&utm_medium=member_desktop&rcm=ACoAADD9O4sBWSj7LmH5W69dcwnEVwmbh_Qi6mU"
+         target="_blank"
+         class="project-btn">
+        View Project
+      </a>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="card project-card">
+      <h3>Redis Deployment using Docker</h3><br>
+      <p>
+        Implemented Redis service using Docker for caching and fast
+        in-memory data storage with container-based isolation.
+      </p>
+
+      <a href="https://www.linkedin.com/posts/aman-kumar-abhishek_devops-docker-redis-activity-7366794256029577217-1gUB"
+         target="_blank"
+         class="project-btn">
+        View Project
+      </a>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="card project-card">
+      <h3>JFrog Artifactory Deployment (Docker)</h3><br>
+      <p>
+        Deployed JFrog Artifactory using Docker with persistent storage to
+        ensure data retention across container restarts and redeployments.
+      </p>
+
+      <ul class="project-points">
+        <li>Used official Artifactory Docker image</li>
+        <li>Exposed service on port 8080</li>
+        <li>Configured Docker volumes for data persistence</li>
+        <li>Recreated containers without data loss</li>
+      </ul>
+    </div>
+
+    <!-- Project 4 -->
+    <div class="card project-card">
+      <h3>Education Redefinition Initiative</h3><br>
+      <p>
+        Participated in an education-focused initiative aimed at redefining
+        learning approaches through collaboration and innovation.
+      </p>
+
+      <a href="https://www.linkedin.com/posts/aman-kumar-abhishek_vimaldaga-righteducation-educationredefine-activity-6788538799417786368-H4wy"
+         target="_blank"
+         class="project-btn">
+        View Project
+      </a>
+    </div>
+
+    <div class="card project-card">
+      <h3>Apache Web Server Deployment</h3><br>
+      <p>
+        Deployed Apache HTTP Server using Docker to serve static web content
+        with persistent storage for website files.
+      </p>
+
+      <ul class="project-points">
+        <li>Used official Apache Docker image</li>
+        <li>Exposed service on port 80</li>
+        <li>Mounted volume for website content</li>
+        <li>Preserved data across container rebuilds</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+<section id="cert-contact">
+  <div class="cert-contact-grid">
+
+    <!-- Certifications -->
+    <div class="card certification-card">
+      <h2>Certifications</h2>
+
+      <h3>ARTH – School of Technologies</h3>
+      <p class="cert-org">LinuxWorld Informatics Pvt. Ltd.</p>
+      <p class="cert-duration">
+        Certificate of Completion · Sep 2020 – Sep 2021
+      </p>
+
+      <ul>
+        <li>AWS, Docker, Kubernetes, Ansible</li>
+        <li>Git & GitHub</li>
+        <li>Linux Administration</li>
+        <li>Shell Scripting & Python</li>
+        <li>Data Structures, ML & DL Fundamentals</li>
+      </ul>
+
+      <p class="cert-id">
+        Certificate ID: <strong>ARTH-2022-1055</strong>
+      </p>
+
+      <a href="https://www.linkedin.com/posts/aman-kumar-abhishek_certificateofcompletion-training-mentoring-activity-6961710578994163712-QL1L?utm_source=share&utm_medium=member_desktop&rcm=ACoAADD9O4sBWSj7LmH5W69dcwnEVwmbh_Qi6mU"
+         target="_blank"
+         class="project-btn">
+        <i class="fas fa-award"></i>
+        View Certificate
+      </a>
+    </div>
+
+    <!-- Contact -->
+    <div class="card contact-card">
+      <h2>Contact</h2>
+
+      <p>
+        I’m open to opportunities in DevOps and cloud engineering, with a strong interest in automation, containerization, and scalable systems.
+I enjoy collaborating on cloud projects and continuously learning through hands-on implementation.
+Whether you’re a recruiter, engineer, or creator looking to collaborate, I’m always open to meaningful conversations.
+Feel free to connect with me through any of the platforms below.
+      </p>
+
+      <div class="contact-buttons" id="contact">
+        <a href="mailto:amankumarabhishek8802@gmail.com"
+           class="project-btn">
+          <i class="fas fa-envelope"></i>
+          Email Me
+        </a>
+
+        <a href="https://www.linkedin.com/in/aman-kumar-abhishek/"
+           target="_blank"
+           class="project-btn">
+          <i class="fab fa-linkedin"></i>
+          LinkedIn
+        </a>
+
+        <a href="assets/Aman_Kumar_Abhishek_Resume.pdf"
+           download
+           class="project-btn">
+          <i class="fas fa-download"></i>
+          Resume
+        </a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<section id="skills">
+  <h2>Skills</h2>
+
+  <div class="skill">
+    <span>Docker</span>
+    <div class="bar"><div data-level="85"></div></div>
+  </div>
+
+  <div class="skill">
+    <span>AWS</span>
+    <div class="bar"><div data-level="75"></div></div>
+  </div>
+
+  <div class="skill">
+    <span>Terraform</span>
+    <div class="bar"><div data-level="65"></div></div>
+  </div>
+
+  <div class="skill">
+    <span>Linux & Git</span>
+    <div class="bar"><div data-level="70"></div></div>
+  </div>
+</section>
+
+<section id="hobbies">
+  <h2>Hobbies & Interests</h2>
+
+  <div class="grid">
+    <div class="card hobby-card">
+      <h3>Photography & Creative Editing</h3>
+
+      <p>
+        Alongside my technical journey, I am passionate about
+        <strong>photography and visual storytelling</strong>.
+        I enjoy capturing aesthetic moments and enhancing them through
+        creative editing.
+      </p>
+
+      <p>
+        My photography work reflects my eye for detail, composition,
+        and creativity — skills that also translate into my approach
+        toward problem-solving and system design.
+      </p>
+
+      <a href="https://www.instagram.com/__avi_abhi/"
+         target="_blank"
+         class="project-btn">
+        <i class="fab fa-instagram"></i>
+        View Instagram
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  © 2026 Aman Kumar Abhishek | Build with 🧡
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
