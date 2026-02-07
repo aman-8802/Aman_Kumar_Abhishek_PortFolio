@@ -216,6 +216,10 @@ section h2 {
   color: #fff;
 }
 
+.insta-card {
+  background: transparent;
+}
+
 .instagram-section h2 {
   font-size: 2rem;
   margin-bottom: 8px;
